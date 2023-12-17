@@ -1,0 +1,122 @@
+*{
+    margin: 0px;
+    padding: 00px;
+}
+body{
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;
+    
+}
+body .form-ctn{
+    width: 100%;
+    margin: auto;
+
+}
+body .form-ctn .form-content{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    color: #e8c258;
+}
+body .form-ctn .form-content .bio-info{
+    width: 60%;
+    margin: auto;
+    /* display: flex;
+    flex-wrap: wrap;
+    jrustify-content: space-between;
+    align-items: center; */
+    margin-top: 3rem;
+    
+
+}
+ .form-ctn .form-content .bio-info form{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;  
+    margin-top: 3rem;
+}
+body .form-ctn .form-content .bio-info form label{
+    width: 100%;
+    text-align: center;
+    margin:2rem 0;
+}
+body .form-ctn .form-content .bio-info form input{
+    width: 100%;
+    background-color: #edf2f5;
+    border: none;
+    height: 30px;
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+}
+ #Fname{
+    width: 45%;
+   
+}
+#Lname{
+    width: 45%;  
+}
+
+body .form-ctn .form-content .bio-info form .email{
+    width: 100%;
+}
+
+
+body .form-ctn .form-content .bio-info input #Lname{
+    width: 45%;
+}
+body .form-ctn .form-content .bio-info form div{
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+body .form-ctn .form-content .bio-info form div label{
+    width:100%;
+    text-align: left;
+    margin:0;
+}
+#Sdate{
+    width: 20%;
+}
+#Month{
+    width: 20%;
+}
+#year{
+    width: 20%;
+}
+ button{
+    width: 100%;
+    height: 30px;
+    background-color: #e8c258;
+    font-weight: 800;
+    border: none;
+ }
+ @media screen and (max-width:1010px) {
+
+    #Fname{
+    width: 100%;
+   
+}
+#Lname{
+    width: 100%;  
+}
+body .form-ctn .form-content .bio-info form div{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#Sdate{
+    width: 23%;
+}
+#Month{
+    width: 23%;
+}
+#year{
+    width: 23%;
+}
+ }
